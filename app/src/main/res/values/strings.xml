@@ -4,5 +4,15 @@
     <string name="app_name">ExempleAndroidMySQL</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_administrateur">Administrateur</string>
+    <string name="title_activity_gerer_depanneur">GererDepanneur</string>
+    <string name="title_activity_gerer_automobiliste">GererAutomobiliste</string>
+    <string name="title_activity_automobiliste">Automobiliste</string>
+    <string name="title_activity_liste_depanneur">ListeDepanneur</string>
+    <string name="title_activity_liste_reponse">ListeReponse</string>
+    <string name="title_activity_depanneur">Depanneur</string>
+    <string name="title_activity_liste_demmande">ListeDemmande</string>
+    <string name="title_activity_liste_automobiliste">ListeAutomobiliste</string>
+    <string name="title_activity_login">Login</string>
 
 </resources>

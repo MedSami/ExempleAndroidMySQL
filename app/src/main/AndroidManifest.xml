@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.medsamimejri.exempleandroidmysql" >
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +16,46 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Administrateur"
+            android:label="@string/title_activity_administrateur" >
+        </activity>
+        <activity
+            android:name=".GererDepanneur"
+            android:label="@string/title_activity_gerer_depanneur" >
+        </activity>
+        <activity
+            android:name=".GererAutomobiliste"
+            android:label="@string/title_activity_gerer_automobiliste" >
+        </activity>
+        <activity
+            android:name=".Automobiliste"
+            android:label="@string/title_activity_automobiliste" >
+        </activity>
+        <activity
+            android:name=".ListeDepanneur"
+            android:label="@string/title_activity_liste_depanneur" >
+        </activity>
+        <activity
+            android:name=".ListeReponse"
+            android:label="@string/title_activity_liste_reponse" >
+        </activity>
+        <activity
+            android:name=".Depanneur"
+            android:label="@string/title_activity_depanneur" >
+        </activity>
+        <activity
+            android:name=".ListeDemmande"
+            android:label="@string/title_activity_liste_demmande" >
+        </activity>
+        <activity
+            android:name=".ListeAutomobiliste"
+            android:label="@string/title_activity_liste_automobiliste" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
         </activity>
     </application>
 
