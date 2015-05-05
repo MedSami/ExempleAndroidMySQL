@@ -14,5 +14,8 @@
     <string name="title_activity_liste_demmande">ListeDemmande</string>
     <string name="title_activity_liste_automobiliste">ListeAutomobiliste</string>
     <string name="title_activity_login">Login</string>
+    <string name="title_activity_ajouter_depanneur">AjouterDepanneur</string>
+    <string name="title_activity_ajouter_automobiliste">AjouterAutomobiliste</string>
+    <string name="title_activity_modifier_automobiliste">ModifierAutomobiliste</string>
 
 </resources>

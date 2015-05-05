@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.medsamimejri.exempleandroidmysql" >
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -56,6 +57,18 @@
         <activity
             android:name=".Login"
             android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".AjouterDepanneur"
+            android:label="@string/title_activity_ajouter_depanneur" >
+        </activity>
+        <activity
+            android:name=".AjouterAutomobiliste"
+            android:label="@string/title_activity_ajouter_automobiliste" >
+        </activity>
+        <activity
+            android:name=".ModifierAutomobiliste"
+            android:label="@string/title_activity_modifier_automobiliste" >
         </activity>
     </application>
 
