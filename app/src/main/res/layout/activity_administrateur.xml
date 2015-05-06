@@ -12,7 +12,11 @@
         android:layout_alignLeft="@+id/button1"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="176dp"
-        android:background="@drawable/gererautomobiliste" />
+        android:background="@drawable/btn_selector"
+        android:text="Gérer Automobiliste"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button1"
@@ -20,5 +24,9 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/gererdepanneur" />
+        android:background="@drawable/btn_selector"
+        android:text="Gérer Dépanneur"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 </RelativeLayout>

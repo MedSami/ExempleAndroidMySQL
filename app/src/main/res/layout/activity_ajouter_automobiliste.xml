@@ -56,6 +56,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="29dp"
-        android:background="@drawable/ajouterautomobiliste" />
+        android:background="@drawable/btn_selector"
+        android:text="Ajouter"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

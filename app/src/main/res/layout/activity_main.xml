@@ -12,7 +12,11 @@
         android:layout_alignLeft="@+id/automobiliste"
         android:layout_below="@+id/automobiliste"
         android:layout_marginTop="19dp"
-        android:background="@drawable/depanneur" />
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Dépanneur" />
 
     <Button
         android:id="@+id/administrateur"
@@ -20,7 +24,11 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/administrateur" />
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Administrateur" />
 
     <Button
         android:id="@+id/automobiliste"
@@ -29,5 +37,9 @@
         android:layout_alignLeft="@+id/administrateur"
         android:layout_below="@+id/administrateur"
         android:layout_marginTop="20dp"
-        android:background="@drawable/automobiliste" />
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Automobiliste" />
 </RelativeLayout>

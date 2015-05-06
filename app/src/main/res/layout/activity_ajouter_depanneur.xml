@@ -13,7 +13,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="76dp"
-        android:background="@drawable/ajouter" />
+        android:background="@drawable/btn_selector"
+        android:text="Ajouter"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button2"
@@ -22,7 +26,11 @@
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
         android:layout_marginTop="44dp"
-        android:background="@drawable/modifier" />
+        android:background="@drawable/btn_selector"
+        android:text="Modifier"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button3"
@@ -31,7 +39,11 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="34dp"
-        android:background="@drawable/supprimer" />
+        android:background="@drawable/btn_selector"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Supprimer" />
 
     <Button
         android:id="@+id/button4"
@@ -40,7 +52,11 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_below="@+id/button3"
         android:layout_marginTop="29dp"
-        android:background="@drawable/appeler" />
+        android:background="@drawable/btn_selector"
+        android:text="Appeler"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
 
 </RelativeLayout>
