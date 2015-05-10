@@ -17,5 +17,9 @@
     <string name="title_activity_ajouter_depanneur">AjouterDepanneur</string>
     <string name="title_activity_ajouter_automobiliste">AjouterAutomobiliste</string>
     <string name="title_activity_modifier_automobiliste">ModifierAutomobiliste</string>
+    <string name="title_activity_modifier_depanneur">ModifierDepanneur</string>
+    <string name="title_activity_envoyer_demmande">EnvoyerDemmande</string>
+    <string name="title_activity_envoyer_reponse">EnvoyerReponse</string>
+    <string name="title_activity_reponse">Reponse</string>
 
 </resources>

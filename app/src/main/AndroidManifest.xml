@@ -70,6 +70,22 @@
             android:name=".ModifierAutomobiliste"
             android:label="@string/title_activity_modifier_automobiliste" >
         </activity>
+        <activity
+            android:name=".ModifierDepanneur"
+            android:label="@string/title_activity_modifier_depanneur" >
+        </activity>
+        <activity
+            android:name=".EnvoyerDemmande"
+            android:label="@string/title_activity_envoyer_demmande" >
+        </activity>
+        <activity
+            android:name=".EnvoyerReponse"
+            android:label="@string/title_activity_envoyer_reponse" >
+        </activity>
+        <activity
+            android:name=".Reponse"
+            android:label="@string/title_activity_reponse" >
+        </activity>
     </application>
 
 </manifest>
