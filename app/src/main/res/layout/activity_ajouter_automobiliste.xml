@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="net.medsamimejri.exempleandroidmysql.AjouterAutomobiliste">
+    tools:context="net.medsamimejri.exempleandroidmysql.AjouterAutomobiliste"
+    android:background="#777777">
 
 
     <EditText
@@ -15,7 +16,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
         android:ems="10"
-        android:hint="Saisir CIN Depanneur" >
+        android:hint="Saisir CIN Depanneur"
+        android:drawableRight="@drawable/identity">
 
         <requestFocus />
     </EditText>
@@ -28,7 +30,8 @@
         android:layout_below="@+id/editText1"
         android:layout_marginTop="42dp"
         android:ems="10"
-        android:hint="Saisir Nom Prenom Depanneur"/>
+        android:hint="Saisir Nom Prenom Depanneur"
+        android:drawableRight="@drawable/user"/>
 
     <EditText
         android:id="@+id/editText3"
@@ -37,7 +40,8 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_centerVertical="true"
         android:ems="10"
-        android:hint="Saisir N°Tel Depanneur"/>
+        android:hint="Saisir N°Tel Depanneur"
+        android:drawableRight="@drawable/phone"/>
 
     <EditText
         android:id="@+id/editText4"
@@ -47,7 +51,8 @@
         android:layout_below="@+id/editText3"
         android:layout_marginTop="41dp"
         android:ems="10"
-        android:hint="Saisir Mot De Passe Depanneur"/>
+        android:hint="Saisir Mot De Passe Depanneur"
+        android:drawableRight="@drawable/password"/>
 
     <Button
         android:id="@+id/button1"

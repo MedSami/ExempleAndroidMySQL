@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="net.medsamimejri.exempleandroidmysql.Login">
+    tools:context="net.medsamimejri.exempleandroidmysql.Login"
+    android:background="@color/material_blue_grey_800">
 
     <EditText
         android:id="@+id/cin"
@@ -14,7 +15,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="34dp"
         android:ems="10"
-        android:hint="Saisir Votre CIN SVP" />
+        android:hint="Saisir Votre CIN SVP"
+        android:drawableRight="@drawable/identity"/>
 
     <EditText
         android:id="@+id/motdepasse"
@@ -25,7 +27,8 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Saisir Mot De Passe SVP"
-        android:inputType="textPassword" >
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/password">
 
         <requestFocus />
     </EditText>
@@ -51,7 +54,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="53dp"
         android:text="TYPE"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
 
 
 </RelativeLayout>
